@@ -1,0 +1,225 @@
+{
+  "x402Version": 1,
+  "provider": "AutoTasker Hub",
+  "service": "AutoTasker Public Data API",
+  "description": "Real-time Chinese social media trending data payable via x402 USDC on Base mainnet. Honest settlement proof: /api/x402/proof.",
+  "category": "Data",
+  "website": "https://autotasker.highkingflower.com",
+  "network": "eip155:8453",
+  "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+  "facilitator": "https://facilitator.payai.network",
+  "license": "CC BY 4.0",
+  "createdAt": "2026-11-19T02:19:15Z",
+  "updatedAt": "2026-11-19T02:19:15Z",
+  "sources": [
+    {
+      "name": "MCP Registry",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers/com.highkingflower/autotasker"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/breezesamuel/autotasker-hub-aevum"
+    }
+  ],
+  "contact": {
+    "email": "partners@autotasker.highkingflower.com"
+  },
+  "resources": [
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/hotlist",
+      "description": "Trending posts from Chinese social media: Weibo Hot Search, Douban, Zhihu, Bilibili, Tieba",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.05",
+          "amountUsd": 0.05,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/search",
+      "description": "Cross-board keyword search across major Chinese social media platforms",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.05",
+          "amountUsd": 0.05,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/full",
+      "description": "Complete dataset export with all fields and metadata",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.5",
+          "amountUsd": 0.5,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/daily_report",
+      "description": "24h trending digest: top 10 hot topics, sentiment analysis, momentum score",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.25",
+          "amountUsd": 0.25,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/market_scan",
+      "description": "Live crypto market scan (CoinGecko/Binance/OKX/Bybit): 20 top movers with 24h data",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.1",
+          "amountUsd": 0.1,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/trend_predict",
+      "description": "Momentum prediction: which trending topics will peak in the next 2 hours",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.15",
+          "amountUsd": 0.15,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/probe",
+      "description": "Live capability probe: tools up, current bandit prices, treasury balance, uptime, x402 state",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.5",
+          "amountUsd": 0.5,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/api/x402/oss/run/placeholder",
+      "description": "Execute a hosted open-source scoring workflow; returns live computation results",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "0.05",
+          "amountUsd": 0.05,
+          "maxTimeoutSeconds": 15
+        }
+      ],
+      "tags": [
+        "china",
+        "social-media",
+        "trending",
+        "data",
+        "x402"
+      ]
+    },
+    {
+      "url": "https://autotasker.highkingflower.com/mcp/tools/call",
+      "description": "Call any MCP tool by name; each tool priced individually; returns JSON.",
+      "type": "mcp",
+      "accepts": [
+        {
+          "scheme": "exact",
+          "network": "eip155:8453",
+          "payTo": "0xb9A9E6d9C4Ad1635aA685bba2e235A515A94773C",
+          "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "amount": "variable",
+          "amountUsd": 0.01,
+          "maxTimeoutSeconds": 20
+        }
+      ],
+      "metadata": {
+        "toolCount": 1639
+      }
+    }
+  ]
+}
